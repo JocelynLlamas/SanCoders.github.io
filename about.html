@@ -366,7 +366,7 @@
                             </a>
 
                             <!-- 4 item -->
-                            <a class="flex flex-col items-center text-center p-5 text-white group bg-gradient-to-tr from-pink-600 to-indigo-400 dark:to-indigo-500 shadow-2xl sm:col-span-2 md:col-auto"
+                            <a class="flex flex-col items-center text-center p-5 text-white group bg-gradient-to-tr from-pink-600 to-pink-400  dark:to-pink-400  shadow-2xl sm:col-span-2 md:col-auto"
                                 data-aos="fade-down" data-aos-anchor="[data-aos-id-rellinks]" data-aos-delay="300">
                                 <img class="mb-3" src="./images/icon-04.svg" width="40" height="40" alt="Icon 01">
                                 <div class="font-red-hat-display text-xl font-black tracking-tighter mb-1">Networking y
@@ -392,7 +392,7 @@
 
                         <!-- Section header -->
                         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                            <h2 class="h2 font-red-hat-display mb-4">Turn your ideas into reality in seconds</h2>
+                            <h2 class="h2 font-red-hat-display mb-4">Programa de Mentoría </h2>
                             <p class="text-xl text-gray-600 dark:text-gray-400">Duis aute irure dolor in reprehenderit
                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
                                 cupidatat.</p>
@@ -409,15 +409,15 @@
                                         class="lg:w-full font-medium px-3 py-2 shadow transition duration-150 ease-in-out rounded flex items-center justify-center lg:justify-start m-1 lg:mx-0"
                                         :class="category === '1' ? 'bg-teal-500 hover:bg-teal-500 dark:bg-teal-600 dark:hover:bg-teal-600 dark:bg-opacity-25 dark:hover:bg-opacity-25' : 'bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700'"
                                         @click="category = '1'">
-                                        <svg class="w-4 h-4 shrink-0 mr-2" viewBox="0 0 16 16"
+                                        <svg class="w-6 h-6 shrink-0 mr-2" viewBox="0 0 200 140" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path class="fill-current"
                                                 :class="category === '1' ? 'text-teal-200 dark:text-teal-400' : 'text-teal-500 dark:text-gray-400'"
-                                                d="M5 16H4a4 4 0 01-4-4v-1h2v1a2 2 0 002 2h1v2zM13 10h-1.686l-1.207-1.207L14.37 4.63a2.121 2.121 0 00-3-3L7.207 5.793 5.99 4.576 5.98 3.02 3.038.079 0 3.117 3 6h1.586l1.207 1.207L4 9l3 3 1.793-1.793L10 11.414V13l3.01 3.01 2.98-2.979L13 10z" />
+                                                d="M30 60C41.0312 60 50 51.0312 50 40C50 28.9688 41.0312 20 30 20C18.9688 20 10 28.9688 10 40C10 51.0312 18.9688 60 30 60ZM170 60C181.031 60 190 51.0312 190 40C190 28.9688 181.031 20 170 20C158.969 20 150 28.9688 150 40C150 51.0312 158.969 60 170 60ZM180 70H160C154.5 70 149.531 72.2188 145.906 75.8125C158.5 82.7188 167.438 95.1875 169.375 110H190C195.531 110 200 105.531 200 100V90C200 78.9688 191.031 70 180 70ZM100 70C119.344 70 135 54.3438 135 35C135 15.6562 119.344 0 100 0C80.6562 0 65 15.6562 65 35C65 54.3438 80.6562 70 100 70ZM124 80H121.406C114.906 83.125 107.688 85 100 85C92.3125 85 85.125 83.125 78.5938 80H76C56.125 80 40 96.125 40 116V125C40 133.281 46.7188 140 55 140H145C153.281 140 160 133.281 160 125V116C160 96.125 143.875 80 124 80ZM54.0938 75.8125C50.4688 72.2188 45.5 70 40 70H20C8.96875 70 0 78.9688 0 90V100C0 105.531 4.46875 110 10 110H30.5938C32.5625 95.1875 41.5 82.7188 54.0938 75.8125Z"
+                                                fill="black" />
                                         </svg>
                                         <span
-                                            :class="category === '1' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Getting
-                                            Started</span>
+                                            :class="category === '1' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Únete</span>
                                     </button>
                                     <button
                                         class="lg:w-full font-medium px-3 py-2 shadow transition duration-150 ease-in-out rounded flex items-center justify-center lg:justify-start m-1 lg:mx-0"
@@ -427,11 +427,10 @@
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path class="fill-current"
                                                 :class="category === '2' ? 'text-teal-200 dark:text-teal-400' : 'text-teal-500 dark:text-gray-400'"
-                                                d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z" />
+                                                d="M11 16v-5h5V0H5v5H0v11h11zM2 7h7v7H2V7z" />
                                         </svg>
                                         <span
-                                            :class="category === '2' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Collection
-                                            list</span>
+                                            :class="category === '2' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Emparejamiento</span>
                                     </button>
                                     <button
                                         class="lg:w-full font-medium px-3 py-2 shadow transition duration-150 ease-in-out rounded flex items-center justify-center lg:justify-start m-1 lg:mx-0"
@@ -444,8 +443,7 @@
                                                 d="M6 0H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1V1a1 1 0 00-1-1zM5 5H2V2h3v3zM15 9h-5a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5h-3v-3h3v3zM6 9H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5H2v-3h3v3zM12.5 7a1 1 0 01-.707-.293l-2.5-2.5a1 1 0 010-1.414l2.5-2.5a1 1 0 011.414 0l2.5 2.5a1 1 0 010 1.414l-2.5 2.5A1 1 0 0112.5 7z" />
                                         </svg>
                                         <span
-                                            :class="category === '3' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Element
-                                            Hierarchy</span>
+                                            :class="category === '3' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Sesiones</span>
                                     </button>
                                     <button
                                         class="lg:w-full font-medium px-3 py-2 shadow transition duration-150 ease-in-out rounded flex items-center justify-center lg:justify-start m-1 lg:mx-0"
@@ -458,261 +456,159 @@
                                                 d="M15.4.6c-.84-.8-2.16-.8-3 0L8.7 4.3c.73.252 1.388.68 1.916 1.244.469.515.83 1.119 1.065 1.775L15.4 3.6c.8-.84.8-2.16 0-3zM4.937 6.9c-1.2 1.2-1.4 5.7-1.4 5.7s4.4-.4 5.6-1.5a2.987 2.987 0 000-4.2 2.9 2.9 0 00-4.2 0z" />
                                         </svg>
                                         <span
-                                            :class="category === '4' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Styling
-                                            Basics</span>
-                                    </button>
-                                    <button
-                                        class="lg:w-full font-medium px-3 py-2 shadow transition duration-150 ease-in-out rounded flex items-center justify-center lg:justify-start m-1 lg:mx-0"
-                                        :class="category === '5' ? 'bg-teal-500 hover:bg-teal-500 dark:bg-teal-600 dark:hover:bg-teal-600 dark:bg-opacity-25 dark:hover:bg-opacity-25' : 'bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700'"
-                                        @click="category = '5'">
-                                        <svg class="w-4 h-4 shrink-0 mr-2" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path class="fill-current"
-                                                :class="category === '5' ? 'text-teal-200 dark:text-teal-400' : 'text-teal-500 dark:text-gray-400'"
-                                                d="M11 16v-5h5V0H5v5H0v11h11zM2 7h7v7H2V7z" />
-                                        </svg>
-                                        <span
-                                            :class="category === '5' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Image
-                                            Field</span>
+                                            :class="category === '4' ? 'text-white dark:text-teal-400' : 'text-gray-600 dark:text-gray-300'">Recursos</span>
                                     </button>
                                 </div>
 
-                                <!-- Videos -->
+                                <!-- Section content -->
                                 <div class="lg:col-span-2 max-w-sm mx-auto md:max-w-3xl lg:max-w-none">
-                                    <div class="grid md:grid-cols-2 gap-6">
-                                        <div x-show="['1'].includes(category)">
-                                            <div class="relative">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
+                                    <!-- Content -->
+                                    <div data-aos="fade-up">
+                                        <!-- Content #1 -->
+                                        <div x-show="category === '1'">
+                                            <h3 class="h3 font-cabinet-grotesk mb-3">Únete como Mentee o Voluntaria como
+                                                Mentora</h3>
+                                            <p class="text-lg text-gray-500 mb-8">Nuestro programa de mentoría está
+                                                diseñado
+                                                para guiarte a través de tu carrera en tecnología. Esta es una excelente
+                                                oportunidad para crecer profesionalmente y hacer una diferencia
+                                                positiva en la vida de otras mujeres en el sector tecnológico.
+                                            </p>
+                                            <ul class="inline-flex flex-col space-y-6">
+                                                <li class="flex items-start">
+                                                    <svg class="w-3 h-3 fill-current text-teal-400 dark:text-teal-200 mt-2 mr-3 shrink-0"
+                                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                                    </svg>
+                                                    <div>
+                                                        <div class="font-cabinet-grotesk font-bold text-lg mb-1">
+                                                            Conéctate
+                                                            con mentores experimentadas</div>
+                                                        <div class="text-gray-500">
+                                                            Sea que estés comenzando
+                                                            o
+                                                            buscando avanzar en tu carrera, nuestras mentoras te
+                                                            ofrecerán
+                                                            conocimientos, consejos y apoyo para
+                                                            alcanzar tus
+                                                            metas profesionales y personales.
+                                                        </div>
                                                     </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Using index pages</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            2 Min</div>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <svg class="w-3 h-3 fill-current text-teal-400 dark:text-teal-200 mt-2 mr-3 shrink-0"
+                                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                                    </svg>
+                                                    <div>
+                                                        <div class="font-cabinet-grotesk font-bold text-lg mb-1">
+                                                            Contribuye
+                                                            a nuestra comunidad</div>
+                                                        <div class="text-gray-500">
+                                                            Si deseas contribuir a nuestra comunidad y tienes
+                                                            experiencia
+                                                            que
+                                                            compartir, te invitamos a unirte como mentora.
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div x-show="['1', '2'].includes(category)">
-                                            <div class="relative flex justify-center items-center">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
+                                        <!-- Content #2 -->
+                                        <div x-show="category === '2'">
+                                            <h3 class="h3 font-cabinet-grotesk mb-3">Emparejamiento Personalizado
+                                            </h3>
+                                            <p class="text-lg text-gray-500 mb-8">Comienza tu camino en nuestro programa
+                                                de
+                                                mentoría recibiendo o brindando guía.</p>
+                                            <ul class="inline-flex flex-col space-y-6">
+                                                <li class="flex items-start">
+                                                    <svg class="w-3 h-3 fill-current text-teal-400 dark:text-teal-200 mt-2 mr-3 shrink-0"
+                                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                                    </svg>
+                                                    <div>
+                                                        <div class="font-cabinet-grotesk font-bold text-lg mb-1">Te
+                                                            emparejaremos según tus intereses y
+                                                            necesidades específicas si buscas una mentora, o según tus
+                                                            habilidades y
+                                                            experiencia si deseas ser mentora.</div>
+                                                        <div class="text-gray-500">
+                                                            Este enfoque personalizado facilita
+                                                            relaciones de mentoría efectivas y enriquecedoras,
+                                                            maximizando
+                                                            el beneficio
+                                                            para ambas partes.
+                                                        </div>
                                                     </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Working with content</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            4 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div x-show="['1', '3'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
+                                        <!-- Content #3 -->
+                                        <div x-show="category === '3'">
+                                            <h3 class="h3 font-cabinet-grotesk mb-3">Sesiones de Mentoría Regular
+                                            </h3>
+                                            <p class="text-lg text-gray-500 mb-8">Estas sesiones son espacios seguros
+                                                para
+                                                el aprendizaje y la discusión, adaptados a las necesidades y evolución
+                                                de
+                                                cada participante, proporcionando un soporte constante.</p>
+                                            <ul class="inline-flex flex-col space-y-6">
+                                                <li class="flex items-start">
+                                                    <svg class="w-3 h-3 fill-current text-teal-400 dark:text-teal-200 mt-2 mr-3 shrink-0"
+                                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                                    </svg>
+                                                    <div>
+                                                        <div class="font-cabinet-grotesk font-bold text-lg mb-1">
+                                                            Participa
+                                                            en sesiones regulares de mentoría</div>
+                                                        <div class="text-gray-500">
+                                                            Ya sea como mentee para discutir desafíos y explorar
+                                                            oportunidades, o como mentora para ofrecer consejos
+                                                            prácticos y
+                                                            compartir tu experiencia.
+                                                        </div>
                                                     </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Using cover pages</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            7 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div x-show="['1', '4'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
+                                        <!-- Content #4 -->
+                                        <div x-show="category === '4'">
+                                            <h3 class="h3 font-cabinet-grotesk mb-3">Recursos y Apoyo Continuo</h3>
+                                            <p class="text-lg text-gray-500 mb-8">Nuestro programa te ofrece acceso a
+                                                una
+                                                variedad de recursos educativos tanto para mentees como para mentoras.
+                                            </p>
+                                            <ul class="inline-flex flex-col space-y-6">
+                                                <li class="flex items-start">
+                                                    <svg class="w-3 h-3 fill-current text-teal-400 dark:text-teal-200 mt-2 mr-3 shrink-0"
+                                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                                    </svg>
+                                                    <div>
+                                                        <div class="font-cabinet-grotesk font-bold text-lg mb-1">
+                                                            Webinars y
+                                                            eventos exclusivos</div>
+                                                        <div class="text-gray-500">
+                                                            Estos
+                                                            recursos están diseñados para complementar tu desarrollo
+                                                            profesional y
+                                                            personal, proporcionándote las herramientas necesarias para
+                                                            prosperar y
+                                                            contribuir activamente en el sector tecnológico.
+                                                        </div>
                                                     </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Intro to the style model</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            9 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['2', '5'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Exploring collections</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            12 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['2', '3'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Understand hierarchy</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            3 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['2', '4'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Customisations</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            11 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['3', '5'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Image galleries</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            6 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['5'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Sorting images</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            4 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div x-show="['5'].includes(category)">
-                                            <div class="relative flex justify-center items-center shadow">
-                                                <img class="w-full" src="./images/video-thumb.jpg" width="352"
-                                                    height="264" alt="Video thumbnail 01" />
-                                                <div class="absolute inset-0 flex flex-col">
-                                                    <div class="grow flex justify-center items-center">
-                                                        <a class="hover:opacity-75 transition duration-150 ease-in-out"
-                                                            href="#0">
-                                                            <img src="./images/play-button.svg" width="72" height="72"
-                                                                alt="Play icon" />
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="w-full bottom-0 px-6 py-3 bg-white opacity-90 dark:bg-gray-900 flex justify-between items-center">
-                                                        <a class="text-gray-900 dark:text-gray-400 font-medium"
-                                                            href="#0">Filters</a>
-                                                        <div
-                                                            class="inline-flex px-3 py-1 text-xs font-medium text-white bg-gray-900 bg-opacity-50 dark:text-teal-400 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">
-                                                            9 Min</div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
 
                         </div>
@@ -851,246 +747,6 @@
                 </div>
             </section>
 
-            <!-- Team -->
-            <section>
-                <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                    <div class="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
-
-                        <!-- Section header -->
-                        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                            <h2 class="h2 font-red-hat-display mb-4">Your future teammates</h2>
-                            <p class="text-xl text-gray-600 dark:text-gray-400">Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia
-                                deserunt mollit anim id est.</p>
-                        </div>
-
-                        <!-- Team members -->
-                        <div class="max-w-xs sm:max-w-lg md:max-w-3xl lg:max-w-5xl mx-auto">
-                            <div class="flex flex-wrap justify-center -m-5 lg:-my-7" data-aos-id-team>
-
-                                <!-- 1st member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-01.jpg" width="80"
-                                            height="80" alt="Team member 01" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Sergey Filkov</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 2nd member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="100" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-02.jpg" width="80"
-                                            height="80" alt="Team member 02" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Mary Champ</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 3rd member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="200" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-03.jpg" width="80"
-                                            height="80" alt="Team member 03" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Mark Varsano</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 4th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="300" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-04.jpg" width="80"
-                                            height="80" alt="Team member 04" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">George Hurley</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 5th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="400" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-05.jpg" width="80"
-                                            height="80" alt="Team member 05" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Ellie Lepisov</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 6th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="500" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-06.jpg" width="80"
-                                            height="80" alt="Team member 06" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Connor Bal</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 7th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-07.jpg" width="80"
-                                            height="80" alt="Team member 07" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Marko Sharma</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 8th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-08.jpg" width="80"
-                                            height="80" alt="Team member 08" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Mick Esposito</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 9th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-09.jpg" width="80"
-                                            height="80" alt="Team member 09" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Daniel Smith</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- 10th member -->
-                                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-5 lg:py-7" data-aos="fade-down"
-                                    data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
-                                    <div class="flex flex-col items-center">
-                                        <img class="rounded-full mb-2" src="./images/team-member-10.jpg" width="80"
-                                            height="80" alt="Team member 10" />
-                                        <h4 class="dark:text-gray-300 text-lg font-medium">Patricia Long</h4>
-                                        <a class="p-2" href="#0">
-                                            <svg width="16" height="13" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                                                    fill="#1DA1F2" fill-rule="nonzero" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- CTA -->
-            <section>
-                <div class="max-w-6xl mx-auto px-4 sm:px-6">
-
-                    <!-- CTA box -->
-                    <div class="dark relative bg-gray-800 py-10 px-8 md:py-16 md:px-12">
-
-                        <!-- Background illustration -->
-                        <div class="absolute inset-0 left-auto  pointer-events-none" aria-hidden="true">
-                            <svg class="h-full" width="400" height="232" viewBox="0 0 400 232"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-a">
-                                        <stop stop-color="#667EEA" offset="0%" />
-                                        <stop stop-color="#667EEA" stop-opacity="0" offset="100%" />
-                                    </radialGradient>
-                                    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-b">
-                                        <stop stop-color="#3ABAB4" offset="0%" />
-                                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%" />
-                                    </radialGradient>
-                                </defs>
-                                <g transform="translate(-85 -369)" fill="none" fill-rule="evenodd">
-                                    <circle fill-opacity=".16" fill="url(#box-gr-a)" cx="413" cy="688" r="240" />
-                                    <circle fill-opacity=".24" fill="url(#box-gr-b)" cx="400" cy="400" r="400" />
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="relative max-w-3xl mx-auto text-center">
-
-                            <!-- CTA header -->
-                            <h3 class="h3 font-red-hat-display text-gray-100 mb-2">We want to talk to you</h3>
-                            <p class="text-gray-400 text-xl">Do not worry too about picking exactly the right role; we
-                                can always give you more options after starting the conversation.</p>
-
-                            <!-- CTA button -->
-                            <div class="flex justify-center mt-8">
-                                <a class="btn text-white bg-teal-500 hover:bg-teal-400" href="#0">Send us a message</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
         </main>
 
         <!-- Site footer -->
@@ -1137,107 +793,6 @@
                                         fill="url(#flogo_b)" />
                                 </svg>
                             </a>
-                        </div>
-
-                        <!-- 2nd, 3rd, 4th and 5th blocks -->
-                        <div class="md:col-span-10 lg:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
-
-                            <!-- 2nd block -->
-                            <div class="text-sm">
-                                <h6 class="font-medium uppercase mb-2">Products</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Drag And Drop</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Visual Studio X</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Easy Content</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- 3rd block -->
-                            <div class="text-sm">
-                                <h6 class="font-medium uppercase mb-2">Resources</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Industries and tools</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Use cases</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Blog</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Online events</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Nostrud exercitation</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- 4th block -->
-                            <div class="text-sm">
-                                <h6 class="font-medium uppercase mb-2">Company</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Diversity & inclusion</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">About us</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Press</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Customer stories</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Online communities</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- 5th block -->
-                            <div class="text-sm">
-                                <h6 class="font-medium uppercase mb-2">Support</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Documentation</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Tutorials & guides</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Webinars</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                                            href="#0">Open-source</a>
-                                    </li>
-                                </ul>
-                            </div>
-
                         </div>
 
                     </div>
@@ -1311,7 +866,7 @@
                         </div>
 
                         <!-- Copyrights note -->
-                        <div class="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights
+                        <div class="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; SanCoders. All rights
                             reserved.</div>
 
                     </div>

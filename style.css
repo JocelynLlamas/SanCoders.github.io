@@ -1297,9 +1297,20 @@ input[type=range]::-moz-focus-outer {
 
 /* Light switch */
 
-.form-switch input[type="checkbox"].light-switch+label {
+/* .form-switch input[type="checkbox"].light-switch+label {
   --tw-bg-opacity: 1;
   background-color: rgb(58 186 180 / var(--tw-bg-opacity));
+}
+
+.dark .form-switch input[type="checkbox"].light-switch+label>span:first-child {
+  left: 22px;
+} */
+
+/* Light switch pink*/
+
+.form-switch input[type="checkbox"].light-switch+label {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 100 166 / var(--tw-bg-opacity));
 }
 
 .dark .form-switch input[type="checkbox"].light-switch+label>span:first-child {
@@ -3518,6 +3529,11 @@ input[type=range]::-moz-focus-outer {
   color: rgb(79 209 197 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-purple-600) {
+  --tw-text-opacity: 1;
+  color: rgb(149 46 236 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:text-teal-500) {
   --tw-text-opacity: 1;
   color: rgb(58 186 180 / var(--tw-text-opacity));
@@ -4135,4 +4151,11 @@ input[type=range]::-moz-focus-outer {
 
 .fill-emerald-400 {
   fill: #b21de4;
+}
+
+.h3 {
+  font-size: 1.875rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+  font-weight: 800;
 }
