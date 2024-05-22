@@ -1299,8 +1299,10 @@ input[type=range]::-moz-focus-outer {
 /* Light switch */
 
 .form-switch input[type="checkbox"].light-switch + label{
+  /* --tw-bg-opacity: 1;
+  background-color: rgb(58 186 180 / var(--tw-bg-opacity)); */
   --tw-bg-opacity: 1;
-  background-color: rgb(58 186 180 / var(--tw-bg-opacity));
+  background-color: rgb(237 100 166 / var(--tw-bg-opacity));
 }
 
 .dark .form-switch input[type="checkbox"].light-switch + label > span:first-child {
