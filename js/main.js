@@ -97,12 +97,12 @@ if (lightSwitches.length > 0) {
       lightSwitch.checked = true;
       document.documentElement.classList.add('dark');
       document.getElementById('logoImage').src = './images/3blanco.png';
-      // document.getElementById('logoImage2').src = './images/3blanco.png';
+      document.getElementById('logoImage2').src = './images/3blanco.png';
     } else {
       lightSwitch.checked = false;
       document.documentElement.classList.remove('dark');
       document.getElementById('logoImage').src = './images/3.png';
-      // document.getElementById('logoImage2').src = './images/3.png';
+      document.getElementById('logoImage2').src = './images/3.png';
     }
 
     // Agrega el evento para cambiar el tema
@@ -117,12 +117,12 @@ if (lightSwitches.length > 0) {
       if (checked) {
         document.documentElement.classList.add('dark');
         document.getElementById('logoImage').src = './images/3blanco.png';
-        // document.getElementById('logoImage2').src = './images/3blanco.png';
+        document.getElementById('logoImage2').src = './images/3blanco.png';
         localStorage.setItem('dark-mode', 'true');
       } else {
         document.documentElement.classList.remove('dark');
         document.getElementById('logoImage').src = './images/3.png';
-        // document.getElementById('logoImage2').src = './images/3.png';
+        document.getElementById('logoImage2').src = './images/3.png';
         localStorage.setItem('dark-mode', 'false');
       }
     });
